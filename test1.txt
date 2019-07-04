@@ -1,16 +1,4 @@
 Hello, Starting with first file.
-
-
-
-
-happy coding. 
-
-regards, 
-  sharan dolli.
- thankyou
- !!!!!
-adding it to new branch 
- 
 Happy coding!
 
 a,b=2,3;
