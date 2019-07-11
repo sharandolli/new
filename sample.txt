@@ -1,0 +1,12 @@
+Python code...
+
+
+def code(a,b):
+	z=a*b
+	print(z)
+
+
+code(5,4)
+
+
+output : 20
