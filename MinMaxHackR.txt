@@ -1,0 +1,25 @@
+let arr = [1,2,3,4,5];
+
+
+function miniMaxSum(arr) {
+    let i, sum = 0, sum1 = 0, sum2, sum3 = 0, sum4 = 0;
+    let ar1 = [];
+    let max = 0, min = 0;
+
+    for (i = 0; i < arr.length; i++) {
+        sum = arr[1] + arr[2] + arr[3] + arr[4];
+        sum1 = arr[0] + arr[2] + arr[3] + arr[4]; //1,3,4,5
+        sum2 = arr[0] + arr[1] + arr[3] + arr[4]; //1,2,4,5
+        sum3 = arr[0] + arr[1] + arr[2] + arr[4]; //1,2,3,5
+        sum4 = arr[0] + arr[1] + arr[2] + arr[3]; //1,2,3,4
+    }
+    ar1.push(sum, sum1, sum2, sum3, sum4);
+
+    max = Math.max.apply(null, ar1);
+    min = Math.min.apply(null, ar1);
+
+    console.log(min,max);
+}
+
+
+func(arr);
